@@ -1,0 +1,102 @@
+.lw { font-size: 60px; }
+
+.ip1{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.ip2{
+  position: absolute;
+  top: 34px;
+  left: 20px;
+}
+
+.b1{
+  position: absolute;
+  top: 252px;
+  left: 230px;
+  width: 60px;
+  height: 60px;
+}
+
+.timeSlider {
+  position: absolute;
+  top: 308px;
+  left: 20px;
+  width: 200px;
+}
+
+.tval{
+  font: 12px Arial, sans-serif;
+  position: absolute;
+  top: 308px;
+  left: 224px;
+  width: 200px;
+}
+
+.opacitySlider {
+  position: absolute;
+  top: 344px;
+  left: 20px;
+  width: 200px;
+}
+
+.xSlider {
+  position: absolute;
+  top: 390px;
+  left: 20px;
+  width: 200px;
+}
+
+.ySlider {
+  position: absolute;
+  top: 420px;
+  left: 20px;
+  width: 200px;
+}
+.oval{
+  font: 12px Arial, sans-serif;
+  position: absolute;
+  top: 344px;
+  left: 224px;
+  width: 200px;
+}
+
+.tlab{
+  font: 12px Arial, sans-serif;
+  position: absolute;
+  top: 290px;
+  left: 20px;
+  width: 200px;
+}
+
+.olab{
+  font: 12px Arial, sans-serif;
+  position: absolute;
+  top: 328px;
+  left: 20px;
+  width: 200px;
+}
+
+.xlab{
+  font: 12px Arial, sans-serif;
+  position: absolute;
+  top: 374px;
+  left: 20px;
+  width: 200px;
+}
+
+
+.imageWrapper {
+  position: relative;
+}
+.overlayImage1 {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}
+.overlayImage2 {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" 
+href="https://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/overcast/jquery-ui.css"/>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js">
+</script>
+  
+<title>Image Switcher></title>
+<link type="text/css" rel="stylesheet" href="http://www.jetmelon.com/decochrom/css/style.css"/>
+</head>
+<body>
+
+
+<div class="timeSlider" id="timeSlider" ></div>
+<div class="opacitySlider" id="opacitySlider" ></div>
+<div class="xSlider" id="xSlider" ></div>
+<div class="ySlider" id="ySlider" ></div>
+ 
+<label class= "tlab" style="border:0; color:#f6931f; font-weight:bold;">Transition Time</label>
+ <label class= "olab" style="border:0; color:#f6931f; font-weight:bold;">Opacity</label>
+<label class= "xlab" style="border:0; color:#f6931f; font-weight:bold;">Offset</label>
+  
+<input class="tval" type="text" id="tVal" readonly style="border:0; color:#f6931f; font-weight:bold;">
+<input class="oval" type="text" id="oVal" readonly style="border:0; color:#f6931f; font-weight:bold;">
+  
+<input class="ip1" type="file" onchange="onFileSelected(event)">
+<input class="ip2" type="file" onchange="onFileSelected2(event)">
+<input class="b1" id ="fadeBtn" type="button" value="Switch" type="submit">
+
+<div id="img">
+  <img class="overlayImage1" id="myimage1" width=200 height="200" />
+  <img class="overlayImage2" id="myimage2" width=200 height="200" />
+</div>
+
+  
+  <!-- your content here -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
